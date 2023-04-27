@@ -7,7 +7,7 @@ export function BookProvider({ children }) {
   const [bookData, setBook] = useState([]);
   const [userData, setUser] = useState({});
 
-  useEffect(() => fetchDetails, []);
+  useEffect(() => {fetchDetails()}, []);
 
   const fetchDetails = async () => {
     try {
