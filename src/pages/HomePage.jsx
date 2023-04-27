@@ -62,7 +62,7 @@ export default function HomePage() {
           );
         })}
       </ol>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
