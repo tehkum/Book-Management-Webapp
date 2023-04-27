@@ -26,10 +26,48 @@ export default function Header() {
         <img src={book} alt="book" width="50px" height="50px" />
         Book Management
       </h1>
-      <NavLink to="/">Home</NavLink> ||
-      <NavLink to="/Favourites"> Favourites({fav})</NavLink> ||
-      <NavLink to="/Profile"> Profile</NavLink> ||
-      <NavLink to="/Read-book"> Read({read})</NavLink>
+      <NavLink
+        style={({ isActive }) =>
+          isActive ? { fontWeight: "bolder", color: "black" } : {}
+        }
+        className="Navlink"
+        to="/"
+      >
+        Home
+      </NavLink>{" "}
+      ||
+      <NavLink
+        style={({ isActive }) =>
+          isActive ? { fontWeight: "bolder", color: "black" } : {}
+        }
+        className="Navlink"
+        to="/Favourites"
+      >
+        {" "}
+        Favourites({fav})
+      </NavLink>{" "}
+      ||
+      <NavLink
+        style={({ isActive }) =>
+          isActive ? { fontWeight: "bolder", color: "black" } : {}
+        }
+        className="Navlink"
+        to="/Profile"
+      >
+        {" "}
+        Profile
+      </NavLink>{" "}
+      ||
+      <NavLink
+        style={({ isActive }) =>
+          isActive ? { fontWeight: "bolder", color: "black" } : {}
+        }
+        className="Navlink"
+        to="/Read-book"
+      >
+        {" "}
+        Read({read})
+      </NavLink>
     </div>
   );
 }

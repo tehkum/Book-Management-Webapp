@@ -4,6 +4,16 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
-NavLink {
+.Navlink {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: red;
+  text-decoration: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.Navlink:hover {
+  background-color: rgb(199, 5, 5);
   color: black;
 }
