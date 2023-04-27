@@ -2,6 +2,7 @@ import "./Homepage.css";
 import { UseBooks } from "..";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import Footer from "./components/Footer";
 
 export default function HomePage() {
   const { bookData, favClickHandler, isRead } = useContext(UseBooks);
@@ -61,6 +62,7 @@ export default function HomePage() {
           );
         })}
       </ol>
+      <Footer />
     </>
   );
 }

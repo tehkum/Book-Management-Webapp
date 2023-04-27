@@ -5,7 +5,7 @@ import ReadBook from "./pages/ReadBook";
 import "./styles.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Read-book" element={<ReadBook />} />
       </Routes>
-      <Footer />
+      
     </div>
   );
 }
