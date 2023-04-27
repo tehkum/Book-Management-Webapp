@@ -1,0 +1,9 @@
+.header {
+  padding: 10px;
+  border-bottom: 1px solid #666666;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+NavLink {
+  color: black;
+}

@@ -1,0 +1,35 @@
+ol {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+}
+.book-card {
+  border: 2px solid black;
+  width: 230px;
+  margin: 10px 20px;
+  padding: 10px;
+}
+.button-read {
+  width: 70%;
+  padding: 8px;
+  margin: 10px 0;
+}
+.button-read:hover {
+  background-color: rgb(233, 228, 228);
+  border: 2px solid black;
+  font-weight: bold;
+}
+.button-fav {
+  width: 70%;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  background: #0000ff;
+  border: none;
+  color: white;
+}
+.button-fav:hover {
+  background-color: rgb(0, 0, 194);
+}
