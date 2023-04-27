@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Book-Management-Webapp/static/css/main.1f3eeaa0.css",
+    "main.js": "/Book-Management-Webapp/static/js/main.70c8631b.js",
+    "static/media/logo.jpg": "/Book-Management-Webapp/static/media/logo.451a3f966bd7416f46ca.jpg",
+    "static/media/book.png": "/Book-Management-Webapp/static/media/book.1f9650abd36f9d59751b.png",
+    "index.html": "/Book-Management-Webapp/index.html",
+    "main.1f3eeaa0.css.map": "/Book-Management-Webapp/static/css/main.1f3eeaa0.css.map",
+    "main.70c8631b.js.map": "/Book-Management-Webapp/static/js/main.70c8631b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3eeaa0.css",
+    "static/js/main.70c8631b.js"
+  ]
+}
