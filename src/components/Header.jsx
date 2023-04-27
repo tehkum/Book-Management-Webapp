@@ -28,7 +28,7 @@ export default function Header() {
       </h1>
       <NavLink
         style={({ isActive }) =>
-          isActive ? { fontWeight: "bolder", color: "black" } : {}
+          isActive ? { fontWeight: "bolder" } : {}
         }
         className="Navlink"
         to="/"
@@ -38,7 +38,7 @@ export default function Header() {
       ||
       <NavLink
         style={({ isActive }) =>
-          isActive ? { fontWeight: "bolder", color: "black" } : {}
+          isActive ? { fontWeight: "bolder" } : {}
         }
         className="Navlink"
         to="/Favourites"
@@ -49,7 +49,7 @@ export default function Header() {
       ||
       <NavLink
         style={({ isActive }) =>
-          isActive ? { fontWeight: "bolder", color: "black" } : {}
+          isActive ? { fontWeight: "bolder"} : {}
         }
         className="Navlink"
         to="/Profile"
@@ -60,7 +60,7 @@ export default function Header() {
       ||
       <NavLink
         style={({ isActive }) =>
-          isActive ? { fontWeight: "bolder", color: "black" } : {}
+          isActive ? { fontWeight: "bolder"} : {}
         }
         className="Navlink"
         to="/Read-book"

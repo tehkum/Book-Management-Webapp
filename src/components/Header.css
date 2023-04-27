@@ -7,13 +7,8 @@
 .Navlink {
   border: 1px solid black;
   padding: 10px;
-  background-color: red;
   text-decoration: none;
   border: none;
-  color: white;
+  color: green;
   border-radius: 10px;
-}
-.Navlink:hover {
-  background-color: rgb(199, 5, 5);
-  color: black;
 }
