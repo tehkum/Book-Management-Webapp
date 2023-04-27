@@ -35,7 +35,7 @@ export default function Header() {
       >
         Home
       </NavLink>{" "}
-      ||
+      
       <NavLink
         style={({ isActive }) =>
           isActive ? { fontWeight: "bolder" } : {}
@@ -46,7 +46,7 @@ export default function Header() {
         {" "}
         Favourites({fav})
       </NavLink>{" "}
-      ||
+      
       <NavLink
         style={({ isActive }) =>
           isActive ? { fontWeight: "bolder"} : {}
@@ -57,7 +57,7 @@ export default function Header() {
         {" "}
         Profile
       </NavLink>{" "}
-      ||
+      
       <NavLink
         style={({ isActive }) =>
           isActive ? { fontWeight: "bolder"} : {}
