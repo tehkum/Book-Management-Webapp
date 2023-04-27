@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { UseBooks } from "..";
+import "./profile.css";
 
 export default function Profile() {
   const { userData } = useContext(UseBooks);
@@ -7,11 +8,13 @@ export default function Profile() {
   return (
     <>
       <h1>Your Profile</h1>
-      <img src={userData.img} alt="..." width="300px" />
-      <h3>Name: {userData.name}</h3>
-      <p>
-        <b>bio: </b> {userData.bio}
-      </p>
+      <div className="card">
+        <img src={userData.img} alt="..." width="300px" />
+        <h3>Name: {userData.name}</h3>
+        <p>
+          <b>bio: </b> {userData.bio}
+        </p>
+      </div>
     </>
   );
 }
